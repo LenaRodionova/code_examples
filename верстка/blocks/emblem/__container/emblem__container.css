@@ -1,0 +1,12 @@
+.emblem__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 82px;
+}
+
+@media (max-width: 700px) {
+    .emblem__container {
+        justify-content: center;
+    }
+}

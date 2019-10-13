@@ -1,0 +1,23 @@
+@import url('./__lang/_en/header__lang_en.css');
+@import url('./__lang/_ru/header__lang_ru.css');
+@import url('./__logo/header__logo.css');
+@import url('./__lang/header__lang.css');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-width: 82%;
+    /* height: 52px; */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media (min-width : 2560px) {
+    header {
+        max-width: 928px;
+    }
+}

@@ -1,0 +1,7 @@
+.image__close {
+    width: 26px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__img/cover__img.css');
+
+.cover {
+    max-width: 82%;
+    margin-top: 102px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+@media ( max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+    }
+}

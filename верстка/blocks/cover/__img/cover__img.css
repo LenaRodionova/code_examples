@@ -1,0 +1,10 @@
+.cover__img {
+    display: block;
+    opacity: 0.8;
+    width: 100%;
+}
+
+
+.cover__img:hover {
+    opacity: .3;
+}

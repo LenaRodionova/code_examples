@@ -1,0 +1,11 @@
+.header__lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 78px;
+}
+
+.lang_link {
+    width: 30px;
+    height: 23px;
+}

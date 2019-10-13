@@ -1,0 +1,13 @@
+.intro__subtitle {
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+@media (max-width : 768px) {
+    .intro__title {
+        line-height: 32px;
+    }
+}

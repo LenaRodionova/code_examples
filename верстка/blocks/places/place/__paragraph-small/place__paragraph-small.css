@@ -1,0 +1,7 @@
+.place__paragraph-small {
+    margin-bottom: 5%;
+}
+
+.place__paragraph-small:last-of-type {
+    margin-bottom: 0px;
+}

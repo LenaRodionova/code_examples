@@ -1,0 +1,10 @@
+.barentsburg__container {
+    display: flex;
+    margin-top: 4%;
+}
+
+@media (max-width: 400px) {
+    .barentsburg__container {
+        flex-direction: column-reverse;
+    }
+}

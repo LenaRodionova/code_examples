@@ -1,0 +1,10 @@
+.additional__item {
+    position: relative;
+    margin-bottom: 3%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.radius {
+    border-radius: 10px;
+}

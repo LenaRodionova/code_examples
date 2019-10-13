@@ -1,0 +1,38 @@
+.barentsburg__text {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 10%;
+    width: 33%;
+}
+
+.barentsburg__text:last-child {
+    width: 25%;
+}
+
+@media (max-width: 800px) {
+    .barentsburg__text {
+        width: 43%;
+    }
+    .barentsburg__text:last-child {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .barentsburg__text:first-child {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 400px) {
+    .barentsburg__text {
+        width: 80%;
+        margin-right: 0;
+        margin-left: 5%;
+    }
+    .barentsburg__text:last-child {
+        width: 80%;
+        margin-bottom: 5%
+    }
+}

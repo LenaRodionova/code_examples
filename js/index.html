@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Mesto</title>
+    <link href="./pages/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="root">
+    <header class="header root__section">
+        <img alt="mesto logo" class="logo" src="./images/logo.svg">
+    </header>
+    <div class="profile root__section">
+        <div class="user-info">
+            <div class="user-info__photo"></div>
+            <div class="user-info__data">
+                <h1 class="user-info__name"></h1>
+                <p class="user-info__job"></p>
+                <button class='user-info__button-edit'>Edit</button>
+            </div>
+            <button class="button user-info__button">+</button>
+        </div>
+    </div>
+    <div class="places-list root__section">
+    </div>
+    <div class='popups'>
+        <div class="popup popup_first">
+            <div class="popup__content">
+                <img alt="1" class="popup__close" src="./images/close.svg">
+                <h3 class="popup__title">Новое место</h3>
+                <form class="popup__form" name="new">
+                    <input class="popup__input popup__input_type_name" name="name" placeholder="Название" type="text">
+                    <input class="popup__input popup__input_type_link-url" name="link" placeholder="Ссылка на картинку"
+                           type="text">
+                    <button class="button popup__button" type>+</button>
+                </form>
+            </div>
+        </div>
+        <div class="popup popup_second">
+            <div class="popup__content">
+                <img alt="2" class="popup__close" src="./images/close.svg">
+                <h3 class="popup__title">Редактировать профиль</h3>
+                <form class="popup__form" name="data">
+                    <input class="popup__input popup__input_type_name" id='name' name="name" placeholder="Имя" required
+                           type="text">
+                    <span class='error-message' id='error-name'></span>
+                    <input class="popup__input popup__input_type_link-url" id='job' name="job" placeholder="О себе" required
+                           type="text">
+                    <span class='error-message' id='error-job'></span>
+                    <button class="button popup__button" type>Сохранить</button>
+                </form>
+            </div>
+        </div>
+        <div class='image'>
+            <div class='image__content'>
+                <img alt="3" class="image__close" src="./images/close.svg">
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</body>
+<script src="script.js">
+</script>
+</html>

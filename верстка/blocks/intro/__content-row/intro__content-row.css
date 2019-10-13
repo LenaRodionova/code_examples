@@ -1,0 +1,10 @@
+.intro__content-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width : 768px) {
+    .intro__content-row {
+        flex-direction: column-reverse;
+    }
+}

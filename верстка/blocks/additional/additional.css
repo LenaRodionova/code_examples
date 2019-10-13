@@ -1,0 +1,20 @@
+@import url('./__container/additional__container.css');
+@import url('./__heading/additional__heading.css');
+@import url('./__item/additional__item.css');
+@import url('./__text/additional__text.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('../content-title/content-title.css');
+@import url('./__img/additional__img.css');
+
+.additional {
+    max-width: 82%;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1280px) {
+    .additional {
+        max-width: 90%;
+    }
+}

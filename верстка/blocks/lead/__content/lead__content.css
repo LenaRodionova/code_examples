@@ -1,0 +1,12 @@
+.lead__content {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+}
+
+@media (max-width : 768px) {
+    .lead__content {
+        max-width: 100%;
+    }
+}

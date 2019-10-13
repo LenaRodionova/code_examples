@@ -1,0 +1,30 @@
+.additional__heading {
+    font-family: Inter;
+    font-size: 27px;
+    line-height: 29px;
+    width: 248px;
+    position: absolute;
+    top: 30px;
+    left: 18px;
+}
+
+@media (max-width: 1024px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .additional__heading {
+        font-size: 27px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 375px) {
+    .additional__heading {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}

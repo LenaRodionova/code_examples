@@ -1,0 +1,14 @@
+li {
+    margin-right: 18px;
+    list-style-type: none;
+}
+
+li:last-of-type {
+    margin-right: 0px;
+}
+
+@media (max-width: 727px) {
+    li {
+       margin-bottom: 5%; 
+    }
+}

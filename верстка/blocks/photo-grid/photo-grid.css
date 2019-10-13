@@ -1,0 +1,17 @@
+@import url('./__item/photo-grid__iten.css');
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 88%;
+    margin-top: 92px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 680px) {
+    .photo-grid {
+        align-items: center;
+    }
+}

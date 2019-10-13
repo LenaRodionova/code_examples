@@ -1,0 +1,12 @@
+.video__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+@media (max-width: 768px) {
+    .video__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

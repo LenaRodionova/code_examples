@@ -1,0 +1,17 @@
+@import url('./__container/video__container.css');
+@import url('./__duration/video__duration.css');
+@import url('./__icon/_play/video__icon_play.css');
+@import url('./__item/video__item.css');
+@import url('./__subtitle/video__subtitle.css');
+@import url('./__title/video__title.css');
+@import url('../content-subtitle/content-subtitle.css');
+@import url('../content-title/content-title.css');
+@import url('./__img/video__img.css');
+@import url('./__info/video__info.css');
+
+.video {
+    max-width: 94%;
+    margin-top: 102px;
+    margin-right: auto;
+    margin-left: auto;
+}

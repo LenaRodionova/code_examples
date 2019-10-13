@@ -1,0 +1,36 @@
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/span/span.css');
+@import url('../blocks/bolder__text/bolder__text.css');
+@import url('../Inter-3.5/Inter\ \(web\ hinted\)/inter.css');
+
+body {
+    background-color: #2A2C2F;
+    color: #fff;
+    min-width: 320px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.link {
+    color: #fff;
+}
+
+p, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

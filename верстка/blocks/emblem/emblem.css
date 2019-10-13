@@ -1,0 +1,14 @@
+@import url('./__city/emblem__city.css');
+@import url('./__image/emblem__image.css');
+@import url('./__item/emblem__item.css');
+@import url('./__title/emblem__title.css');
+@import url('./__container/emblem__container.css');
+@import url('./img/img.css');
+
+.emblem {
+    max-width: 82%;
+    /* height: 523px; */
+    margin-top: 82px;
+    margin-right: auto;
+    margin-left: auto;
+}

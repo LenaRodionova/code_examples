@@ -1,0 +1,22 @@
+.comment {
+    width: 382px;
+    margin-right: 1%;
+    /* width: calc((100%/3) - 1%); */
+}
+
+@media (max-width: 768px) {
+    .comment {
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .comment {
+        max-width: 100%;
+    }
+}

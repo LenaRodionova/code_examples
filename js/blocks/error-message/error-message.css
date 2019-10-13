@@ -1,0 +1,9 @@
+@import url(./_is-displayed/error-message_is-displayed.css);
+
+.error-message {
+    color: red;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 14px;
+    display: none;
+}

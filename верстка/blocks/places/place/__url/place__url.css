@@ -1,0 +1,17 @@
+.place__url {
+    align-self: end;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.place__url::before {
+    content: 'URL';
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    display: block;
+    margin-bottom: 2%;
+}

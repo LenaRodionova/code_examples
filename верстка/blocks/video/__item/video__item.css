@@ -1,0 +1,15 @@
+.video__item {
+    width: 49%;
+    position: relative;
+    background-color: rgb(0,0,0);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .video__item {
+        width: 90%;
+    }
+    .video__item:first-of-type {
+        margin-bottom: 1%
+    }
+}

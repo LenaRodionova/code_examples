@@ -1,0 +1,10 @@
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+    }
+}

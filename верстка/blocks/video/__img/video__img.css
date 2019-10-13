@@ -1,0 +1,6 @@
+.video__img {
+    display: block;
+    opacity: 0.5;
+    width: 100%;
+    border-radius: 5px;
+}

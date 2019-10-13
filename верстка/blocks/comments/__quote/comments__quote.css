@@ -1,0 +1,18 @@
+.comments__quote {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 42px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .comments__quote {
+        font-family: Inter;
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+        margin-top: 4%;
+        margin-bottom: 16%;
+    }
+}

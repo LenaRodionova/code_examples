@@ -1,0 +1,19 @@
+.additional__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 375px) {
+    .additional__container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 630px) {
+    .additional__container {
+        justify-content: center;
+    }
+}
+

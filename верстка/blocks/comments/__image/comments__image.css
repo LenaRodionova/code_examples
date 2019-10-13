@@ -1,0 +1,11 @@
+.comments__image {
+    border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+    .comments__image {
+        /* max-width: 25%; */
+        order: 1;
+        align-self: center;
+    }
+}

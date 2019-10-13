@@ -1,0 +1,10 @@
+.additional__text {
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    width: 248px;
+    position: absolute; 
+    bottom: 30px;
+    right: 18px;
+    left: 18px;
+}

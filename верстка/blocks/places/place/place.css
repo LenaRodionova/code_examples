@@ -1,0 +1,21 @@
+.place {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: fit-content(20%) fit-content(80%);
+    grid-row-gap: 5%;
+    grid-column-gap: 5%;
+    margin-top: 72px;
+}
+
+.place:first-of-type {
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    .place {
+        grid-auto-rows: fit-content(5%) fit-content(10%) fit-content(40%) fit-content(45%);
+        grid-template-columns: 100%;
+        grid-row-gap: 2%;
+    }
+}
